@@ -16,22 +16,24 @@
         android:src="@drawable/tienda"
         app:layout_constraintBottom_toTopOf="@+id/ivMarcaInicio"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489" />
 
     <ImageView
         android:id="@+id/ivMarcaInicio"
-        android:layout_width="370dp"
+        android:layout_width="250dp"
         android:layout_height="100dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="208dp"
         android:baselineAlignBottom="false"
         android:src="@drawable/marcar_rojo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivLogoInicio" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519" />
 
     <Button
         android:id="@+id/btnCerrar"

@@ -3,6 +3,7 @@ package com.example.storesale;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Patterns;
@@ -28,7 +29,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import java.util.HashMap;
 import java.util.Map;
 
-public class registrese extends AppCompatActivity {
+public class registrese extends Activity {
 
     Button btnRegistrarse, btnInicio;
     Spinner spinnerPais, spinnerRol;
@@ -43,7 +44,6 @@ public class registrese extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrese);
 
-        getSupportActionBar().hide();
 
         firebaseAuth = FirebaseAuth.getInstance();
         awesomeValidation = new AwesomeValidation(ValidationStyle.BASIC);

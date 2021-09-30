@@ -2,6 +2,7 @@ package com.example.storesale;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +11,7 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-public class inicio extends AppCompatActivity {
+public class inicio extends Activity {
 
     Button btnCerrar;
 
@@ -18,6 +19,8 @@ public class inicio extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio);
+
+        //getSupportActionBar().hide();
 
         btnCerrar = findViewById(R.id.btnCerrar);
 

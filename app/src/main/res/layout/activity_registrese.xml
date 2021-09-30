@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/btnInicio"
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="48dp"
         android:layout_marginTop="5dp"
         android:background="@drawable/custom_button1"
@@ -33,6 +33,7 @@
         android:hint="@string/txtNombres"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColor="#9E9E9E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvRegistrese" />
@@ -48,6 +49,7 @@
         android:hint="Correo electronico"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
+        android:textColor="#9E9E9E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etNombres" />
@@ -63,6 +65,7 @@
         android:hint="Contraseña"
         android:inputType="textPassword"
         android:minHeight="48dp"
+        android:textColor="#9E9E9E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etCorreo" />
@@ -73,43 +76,26 @@
         android:layout_height="60dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/custom_button"
+        android:backgroundTint="@null"
         android:fontFamily="sans-serif-medium"
-        android:text="Regirtrarse"
+        android:text="Registrarse"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etTienda" />
 
-    <ImageView
-        android:id="@+id/ivLogo"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/tienda" />
-
-    <ImageView
-        android:id="@+id/ivMarca"
-        android:layout_width="280dp"
-        android:layout_height="80dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivLogo"
-        app:srcCompat="@drawable/marcar_rojo" />
-
     <TextView
         android:id="@+id/tvRegistrese"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:gravity="center"
         android:text="REGISTRESE"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivMarca" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <EditText
         android:id="@+id/etCiudad"
@@ -122,6 +108,7 @@
         android:hint="Ciudad"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColor="#9E9E9E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinnerPais"
@@ -153,6 +140,7 @@
         android:hint="Tienda"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        android:textColor="#9E9E9E"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
@@ -169,5 +157,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etContraseña"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/tienda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/marcar_rojo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
