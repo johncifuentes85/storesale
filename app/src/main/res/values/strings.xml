@@ -3,4 +3,20 @@
     <string name="txtNombres">Nombres completos</string>
     <string name="invalid_mail">Ingrese mail valido</string>
     <string name="invalid_password">Ingrese un password mayor a 6 digitos</string>
+    <string name="etCorreosession">Ingrese su correo electronico</string>
+    <string name="etContraseñasession">Ingrese su contraseña</string>
+    <string name="tvInicionsession">INICIO DE SESION</string>
+    <string name="ivTienda">Tienda</string>
+    <string name="ivMarca">Marca</string>
+    <string name="btnEntrar">INGRESAR</string>
+    <string name="btnRegistrarse">Registrarse</string>
+    <string name="tvRegistrese">REGISTRESE</string>
+    <string name="etCorreo">Correo electronico</string>
+    <string name="etContraseña">Contraseña</string>
+    <string name="etPais">Seleccione su pais</string>
+    <string name="etCiudad">Ciudad</string>
+    <string name="etTipo">Seleccione su tipo de usuario</string>
+    <string name="etTienda">Tienda</string>
+    <string name="btnRegistrarse1">REGISTRARSE</string>
+    <string name="btnInicio">Volver al inicio</string>
 </resources>
