@@ -103,9 +103,9 @@ public class registrese extends Activity {
                 }
                 else if (tienda.equals("") && tipoUsuario == "Vendedor"){
                     Toast.makeText(registrese.this, "Ingrese el nombre de su tienda..!!", Toast.LENGTH_SHORT).show();
-                    etCiudad.setError("Ingrese el nombre de su tienda");
-                    etCiudad.requestFocus();
-                    etCiudad.setText("");
+                    etTienda.setError("Ingrese el nombre de su tienda");
+                    etTienda.requestFocus();
+                    etTienda.setText("");
                 }
                 else{
                     if(awesomeValidation.validate()){
