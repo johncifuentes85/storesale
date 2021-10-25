@@ -39,14 +39,43 @@
         android:id="@+id/btnCerrar"
         android:layout_width="228dp"
         android:layout_height="60dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/custom_button"
         android:fontFamily="sans-serif-medium"
         android:text="Cerrar sesion"
         android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddProduct2" />
+
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/custom_button"
+        android:onClick="newProduct"
+        android:text="@string/add_product"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivMarcaInicio" />
+
+    <Button
+        android:id="@+id/btnAddProduct2"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/btn_EditProduct"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddProduct" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

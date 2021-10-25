@@ -8,7 +8,7 @@
     tools:context=".AddProduct">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/ivProduct"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
@@ -50,6 +50,7 @@
         android:layout_marginRight="30dp"
         android:background="@drawable/custom_button"
         android:fontFamily="sans-serif-medium"
+        android:onClick="selectImageFromGallery"
         android:text="@string/pick_image"
         android:textColor="@color/white"
         android:textSize="24sp"
@@ -151,6 +152,7 @@
         android:layout_marginRight="30dp"
         android:background="@drawable/custom_button"
         android:fontFamily="sans-serif-medium"
+        android:onClick="createProduct"
         android:text="@string/add_product"
         android:textColor="@color/white"
         android:textSize="24sp"
