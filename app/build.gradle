@@ -25,8 +25,8 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    viewBinding {
-        enabled = true
+    viewBinding{
+        enabled  = true
     }
 }
 
@@ -35,7 +35,7 @@ apply plugin: 'com.google.gms.google-services'
 
 dependencies {
 
-    implementation platform('com.google.firebase:firebase-bom:28.4.1')
+    implementation platform('com.google.firebase:firebase-bom:28.4.2')
     implementation 'com.google.firebase:firebase-firestore'
     implementation 'com.google.firebase:firebase-storage'
     implementation 'com.basgeekball:awesome-validation:4.3'

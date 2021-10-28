@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Storesale">
         <activity
+            android:name=".ListProductActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditProductActivity"
+            android:exported="true" />
+        <activity
             android:name=".AddProduct"
             android:exported="true" />
         <activity

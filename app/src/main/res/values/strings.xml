@@ -30,4 +30,6 @@
     <string name="btn_delete">Eliminar</string>
     <string name="btn_newProduc">Nuevo producto</string>
     <string name="btn_EditProduct">Editar producto</string>
+    <string name="btn_update">Actualizar</string>
+    <string name="btn_menu">Regresar al Menu</string>
 </resources>

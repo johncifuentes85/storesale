@@ -1,7 +1,5 @@
 package com.example.storesale;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -44,6 +42,10 @@ public class inicio extends Activity {
     public void newProduct(View view) {
         Intent intent = new Intent(this,AddProduct.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+    }
+    public void listProduct(View view) {
+        Intent intent = new Intent(this, ListProductActivity.class);
         startActivity(intent);
     }
 }

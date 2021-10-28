@@ -48,7 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAddProduct2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnLisProduct" />
 
     <Button
         android:id="@+id/btnAddProduct"
@@ -65,11 +65,12 @@
         app:layout_constraintTop_toBottomOf="@+id/ivMarcaInicio" />
 
     <Button
-        android:id="@+id/btnAddProduct2"
+        android:id="@+id/btnLisProduct"
         android:layout_width="228dp"
         android:layout_height="60dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/custom_button"
+        android:onClick="listProduct"
         android:text="@string/btn_EditProduct"
         android:textColor="@color/white"
         android:textSize="18sp"
